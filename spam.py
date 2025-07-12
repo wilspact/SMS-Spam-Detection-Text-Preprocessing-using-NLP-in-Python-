@@ -1,5 +1,5 @@
 import pandas as pd 
-data=pd.read_csv("C:\\Users\\Lenovo\\Desktop\\dataset\\spam.csv")
+data=pd.read_csv("C:\\spam.csv")
 print(data.head())
 data=data[['Category','Message']]
 print(data.head())
